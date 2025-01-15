@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: qiyu-live-id-generate-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.1.13:8848
+        namespace: 02fefda0-eab7-4294-88d9-fce90266b07a
+        timeout: 10000
+      config:
+        server-addr: 192.168.1.13:8848
+        namespace: 02fefda0-eab7-4294-88d9-fce90266b07a
+        group: DEFAULT_GROUP
+        timeout: 10000

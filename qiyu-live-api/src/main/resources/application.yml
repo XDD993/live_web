@@ -1,0 +1,2 @@
+#dubbo.application.name=qiyu-live-api-application
+#dubbo.registry.address=nacos://192.168.1.13:8848?namespace=02fefda0-eab7-4294-88d9-fce90266b07a&&username=nacos&&password=nacos
