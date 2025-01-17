@@ -28,8 +28,10 @@
         <module name="qiyu-live-id-generate-interface" />
         <module name="qiyu-live-common-interface" />
         <module name="qiyu-live-framework-redis-starter" />
+        <module name="qiyu-live-im-interface" />
         <module name="qiyu-live-user-provider" />
         <module name="qiyu-live-framework-web-starter" />
+        <module name="qiyu-live-im-core-server" />
         <module name="qiyu-live-account-interface" />
       </profile>
     </annotationProcessing>
@@ -47,6 +49,8 @@
       <module name="qiyu-live-gateway" options="-parameters" />
       <module name="qiyu-live-id-generate-interface" options="-parameters" />
       <module name="qiyu-live-id-generate-provider" options="-parameters" />
+      <module name="qiyu-live-im-core-server" options="-parameters" />
+      <module name="qiyu-live-im-interface" options="-parameters" />
       <module name="qiyu-live-msg-interface" options="-parameters" />
       <module name="qiyu-live-msg-provider" options="-parameters" />
       <module name="qiyu-live-user-interface" options="-parameters" />

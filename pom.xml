@@ -27,6 +27,8 @@
         <module>qiyu-live-account-interface</module>
         <module>qiyu-live-account-provider</module>
         <module>qiyu-live-framework-web-starter</module>
+        <module>qiyu-live-im-interface</module>
+        <module>qiyu-live-im-core-server</module>
     </modules>
 
     <packaging>pom</packaging>
