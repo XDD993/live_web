@@ -4,31 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70e02f04-fafb-4b37-a7af-1c7dbc43897c" name="变更" comment="First initialization">
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/NettyImServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/common/ImMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/common/ImMsgDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/common/ImMsgEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/ImHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/ImServerCoreHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/SimpleHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/BizHandlerMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/HeartBeatMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/ImHandlerFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/LoginMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/LogoutMsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/test/java/imclient/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/test/java/imclient/ImClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/constants/ImConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/constants/ImMsgCodeEnum.java" afterDir="false" />
+    <list default="true" id="70e02f04-fafb-4b37-a7af-1c7dbc43897c" name="变更" comment="核心Server搭建">
+      <change afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/java/com/ddd/qiyu/live/framework/redis/starter/key/ImCoreServerProviderCacheKeyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/java/com/ddd/qiyu/live/framework/redis/starter/key/ImProviderCacheKeyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/common/ChannelHandlerContextCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/common/ImContextAttr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/common/ImContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/starter/NettyImServerStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/constants/AppIdEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/dto/ImMsgBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/interfaces/ImTokenRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-provider/src/main/java/com/qiyu/live/im/provider/rpc/ImTokenRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-provider/src/main/java/com/qiyu/live/im/provider/service/ImTokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-provider/src/main/java/com/qiyu/live/im/provider/service/impl/ImTokenServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-provider/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/test/java/com/ddd/QiyuLiveApiApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qiyu-live-common-interface/src/test/java/com/ddd/common/QiyuLiveCommonInterfaceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/resources/META-INF/spring/org.springframework.boot.autoconfigure.AutoConfiguration.imports" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/NettyImServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/ImCoreServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/ImServerCoreHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/ImServerCoreHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/BizHandlerMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/BizHandlerMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/HeartBeatMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/HeartBeatMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/LoginMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/LoginMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/LogoutMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/com/qiyu/live/im/core/server/handler/impl/LogoutMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/constants/ImConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/com/qiyu/live/im/constants/ImConstants.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +135,7 @@
       <recent name="E:\project\qiyu-llive-app\qiyu-live-framework\qiyu-live-framework-datasource-starter\src\main\resources\META-INF\spring" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ddd.qiyu.live.framework.redis.starter.key" />
       <recent name="com.ddd.live.id.generate.provider.service.bo" />
     </key>
   </component>
@@ -157,8 +163,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NettyImServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qiyu.live.im.core.server.NettyImServerApplication" />
+    <configuration name="ImCoreServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qiyu.live.im.core.server.ImCoreServerApplication" />
       <module name="qiyu-live-im-core-server" />
       <extension name="coverage">
         <pattern>
@@ -222,17 +228,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="qiyu-live-user-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ddd.provider.UserProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.UserProviderApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.ApiWebApplication" />
       <item itemvalue="Spring Boot.MsgProviderApplication" />
-      <item itemvalue="应用程序.NettyImServerApplication" />
+      <item itemvalue="应用程序.ImCoreServerApplication" />
       <item itemvalue="应用程序.ImClientApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.ImClientApplication" />
-        <item itemvalue="应用程序.NettyImServerApplication" />
+        <item itemvalue="应用程序.ImCoreServerApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.ApiWebApplication" />
         <item itemvalue="Spring Boot.MsgProviderApplication" />
@@ -283,6 +297,8 @@
       <workItem from="1736920199464" duration="4667000" />
       <workItem from="1736952277490" duration="4394000" />
       <workItem from="1737093588269" duration="665000" />
+      <workItem from="1737125529316" duration="4569000" />
+      <workItem from="1737211361190" duration="3062000" />
     </task>
     <task id="LOCAL-00001" summary="First initialization">
       <option name="closed" value="true" />
@@ -292,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736920654828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="核心Server搭建">
+      <option name="closed" value="true" />
+      <created>1737125616336</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737125616336</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +325,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="变更" />
     <MESSAGE value="First initialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="First initialization" />
+    <MESSAGE value="核心Server搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="核心Server搭建" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

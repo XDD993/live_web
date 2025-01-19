@@ -6,26 +6,16 @@
         <artifactId>qiyu-llive-app</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>qiyu-live-im-core-server</artifactId>
-    <name>Archetype - qiyu-live-im-core-server</name>
+    <artifactId>qiyu-live-im-provider</artifactId>
+    <name>Archetype - qiyu-live-im-provider</name>
     <url>http://maven.apache.org</url>
+
     <properties>
-        <!--完整的版本控制到用户中台的2.5节的父项目pom文件中查看-->
-        <alibaba-fastjson.version>2.0.10</alibaba-fastjson.version>
-        <netty-all.version>4.1.18.Final</netty-all.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <exclusions>
-                <exclusion>
-                    <artifactId>log4j-to-slf4j</artifactId>
-                    <groupId>org.apache.logging.log4j</groupId>
-                </exclusion>
-            </exclusions>
-        </dependency>
         <dependency>
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
@@ -45,35 +35,16 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
             <version>3.0.2</version>
         </dependency>
-        <!--Netty-->
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>${netty-all.version}</version>
-        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
             <exclusions>
                 <exclusion>
-                    <groupId>io.lettuce</groupId>
-                    <artifactId>lettuce-core</artifactId>
+                    <artifactId>log4j-to-slf4j</artifactId>
+                    <groupId>org.apache.logging.log4j</groupId>
                 </exclusion>
             </exclusions>
-        </dependency>
-        <!--Netty依赖与lettuce冲突，换用jedis-->
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>${alibaba-fastjson.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
         </dependency>
 
         <!--自定义-->
@@ -91,18 +62,6 @@
             <groupId>com.ddd</groupId>
             <artifactId>qiyu-live-framework-redis-starter</artifactId>
             <version>1.0-SNAPSHOT</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-data-redis</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
-            <groupId>net.hydromatic</groupId>
-            <artifactId>aggdesigner-algorithm</artifactId>
-            <version>6.0</version>
-            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>

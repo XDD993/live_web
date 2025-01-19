@@ -11,6 +11,7 @@
       <directory url="file://$PROJECT_DIR$/qiyu-live-account-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/qiyu-live-account-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/qiyu-live-framework-web-starter/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-im-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
     </excludeFromCompile>
     <annotationProcessing>
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -28,6 +29,7 @@
         <module name="qiyu-live-id-generate-interface" />
         <module name="qiyu-live-common-interface" />
         <module name="qiyu-live-framework-redis-starter" />
+        <module name="qiyu-live-im-provider" />
         <module name="qiyu-live-im-interface" />
         <module name="qiyu-live-user-provider" />
         <module name="qiyu-live-framework-web-starter" />
@@ -51,6 +53,7 @@
       <module name="qiyu-live-id-generate-provider" options="-parameters" />
       <module name="qiyu-live-im-core-server" options="-parameters" />
       <module name="qiyu-live-im-interface" options="-parameters" />
+      <module name="qiyu-live-im-provider" options="-parameters" />
       <module name="qiyu-live-msg-interface" options="-parameters" />
       <module name="qiyu-live-msg-provider" options="-parameters" />
       <module name="qiyu-live-user-interface" options="-parameters" />
